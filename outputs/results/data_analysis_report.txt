@@ -1,0 +1,25 @@
+
+Data Analysis Report
+====================
+Dataset: Dry Bean Dataset (Dirty Version)
+Source: UCI Machine Learning Repository
+
+1. Data Overview:
+   - Training samples: 9527
+   - Test samples: 2737
+   - Validation samples: 1347
+   - Number of features: 16
+   - Feature types: All numerical
+
+2. Data Contamination Issues:
+   a) Missing Values: Perimeter (469 in train,
+      146 in test, 62 in val)
+      and Solidity (474 in train,
+      121 in test, 63 in val)
+   b) Label Noise: 4 abnormal label variants detected, including
+      typos (D3RMAS0N), case errors (dermason), and trailing spaces.
+   c) True classes: 7 bean types - DERMASON, SIRA, SEKER, HOROZ, CALI, BARBUNYA, BOMBAY
+
+3. Class Imbalance:
+   - DERMASON is the largest class, BOMBAY is the smallest
+   - Moderate imbalance present, acceptable for multi-class classification

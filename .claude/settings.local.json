@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(python main.py analyze)",
+      "Bash(python -c ' *)",
+      "Bash(python main.py full-pipeline)",
+      "Bash(npm list *)",
+      "Bash(npm install *)",
+      "Bash(node build_paper.js)",
+      "Bash(python scripts/office/validate.py \"D:/Desktop/3/期末大作业/期末论文.docx\")"
+    ]
+  }
+}
