@@ -157,6 +157,4 @@ python main.py full-pipeline
 4. 模型评估的多维度分析方法
 5. 工程化项目的组织与交付
 
-## License
 
-MIT
