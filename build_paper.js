@@ -370,7 +370,7 @@ children.push(
   bodyText("  (6) 快速开始指南（环境安装+命令行运行）"),
   bodyText("  (7) 课程总结"),
 
-  bodyTextIndent("GitHub 仓库展示网页链接将在正式提交时补充到论文中。"),
+  bodyTextIndent("GitHub 仓库地址：https://github.com/xiaopojiuguan/homework ，教师可通过该链接在线查看完整代码、README 展示页面（含数据描述、数据处理方法、算法清单、精度汇总表）和所有实验结果。"),
 );
 
 // ===== CHAPTER 5: 课程总结 =====
